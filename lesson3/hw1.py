@@ -1,0 +1,6 @@
+a1,b1 = input().split()
+a2,b2 = input().split()
+a3,b3 = input().split()
+a4,b4 = input().split()
+a1 = int(a1)
+b1 = int(b1)
