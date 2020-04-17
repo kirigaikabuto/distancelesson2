@@ -1,0 +1,5 @@
+s = input()
+words = s.split(" ")
+numbers = map(int,words)
+numbers = list(numbers)
+print(numbers)
