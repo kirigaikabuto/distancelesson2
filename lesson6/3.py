@@ -10,7 +10,7 @@ for i in range(n):
         maxi_index=i
     if mini>numbers[i]:
         mini=numbers[i]
-        maxi_index=i
+        mini_index=i
 start = mini_index
 end = maxi_index
 if maxi_index<mini_index:
@@ -18,6 +18,8 @@ if maxi_index<mini_index:
     end = mini_index
 sumi=0
 for i in range(start+1,end):
+    sumi = sumi + numbers[i]
+print(sumi)
 
 # 8
 # 1 2 3 8 4 5 6 0
