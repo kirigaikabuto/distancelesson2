@@ -1,0 +1,6 @@
+name=product1
+price=1000
+name=product2
+price=10000
+name=product3
+price=12321313213
