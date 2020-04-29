@@ -1,7 +1,12 @@
 [
     {
-        "id_order": 1, 
-        "id_user": 1, 
+        "id_order": 1,
+        "id_user": 2,
+        "id_product": 1
+    },
+    {
+        "id_order": 2,
+        "id_user": 1,
         "id_product": 1
     }
 ]
