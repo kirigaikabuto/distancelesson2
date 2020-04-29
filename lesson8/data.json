@@ -6,5 +6,9 @@
     {
         "name": "product2",
         "price": 1000
+    },
+    {
+        "name": "product3",
+        "price": 123123
     }
 ]
