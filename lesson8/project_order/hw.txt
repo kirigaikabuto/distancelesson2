@@ -1,0 +1,4 @@
+1)
+add,delete to orders orders_add.py
+add,delete to product products_add.py
+add,delete to users users_add.py
