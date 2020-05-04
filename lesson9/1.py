@@ -1,53 +1,15 @@
-import json
-file = open("users.json","r")
-data = file.read()
-users = json.loads(data)
-file.close()
-print("[1]добавление")
-print("[2]удалить")
-print("[3]обновить")
-num = input()
-n = len(users)
-if num == "1":
-    name = input("введите ваше имя:")
-    user={}
-    user['name']=name
-    user['id']=1
-    if n>0:
-        last_user=users[n-1]
-        user['id']=last_user['id']+1
-    users.append(user)
-    
-elif num == "2":
-    print("--Удалить--")
-    for i in users:
-        print(i['id'],i['name'])
-    id = int(input("Введите id:"))
-    remove_index=-1
-    for i in range(n):
-        if users[i]['id']==id:
-            remove_index=i
-    if remove_index==-1:
-        print("Not found")
-    else:
-        users.pop(remove_index)
-elif num == "3":
-    print("--Обновить--")
-    for i in users:
-            print(i['id'],i['name'])
-    id = int(input("Введите id:"))
-    update_index=-1
-    for i in range(n):
-        if users[i]['id']==id:
-            update_index=i
-    if update_index==-1:
-        print("Not found")
-    else:
-        newname=input("New Name:")
-        users[update_index]['name']=newname
+#10 5
+n,find = map(int,input().split())
+numbers=[]
+for i in range(1,n+1):
+    numbers.append(i)
 
-
-file_write = open("users.json","w")
-json_array = json.dumps(users,indent=4)
-file_write.write(json_array)
-file_write.close()
+1)найти элемент и его индекс(index)
+2)newnumbers=numbers[:index]
+#numbers=[1 2 3 4 5 6 7 8 9 10]
+#newnumbers=[]
+#добавить изначально то число которое мы искали [5]
+#newnumbers поместить элементы до 5 и после 5 numbers[:index] number[index+1:]
+# numbers[:index] ->1 2 3 4
+#number[index+1:] 6 7 8 9 10
+#нужно сложить все массивы и конечный итог вывести
