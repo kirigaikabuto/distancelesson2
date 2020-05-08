@@ -60,7 +60,11 @@ for i in newstudents:
     avg = sumi/n
     i['avg']=avg
 #
-
+for i in newstudents:
+    if i['avg']>=mini_avg and i['avg']<=maxi_avg:
+        print("YES")
+    else:
+        print("NO")
 print(students)
 print(newstudents)
 print(maxi_avg,mini_avg)
