@@ -36,15 +36,15 @@ for i in students:
     if i['avg']<mini_avg:
         mini_avg = i['avg']
 
-m = int(input())
+m = int(input())#1
 newstudents=[]
 for i in range(m):
-    line = input()#yerassyl,5 4 4 2
-    parts = line.split(",")#['yerassyl', '5 4 4 2']
-    name = parts[0]#'yerassyl'
-    marks_str = parts[1]#'5 4 4 2'
-    marks_str_arr = marks_str.split(" ")#['5','4','4','2']
-    marks_int_arr = [int(i) for i in marks_str_arr]#[5,4,4,2]
+    line = input()#china,5 4 3 3 2
+    parts = line.split(",")#['china', '5 4 3 3 2']
+    name = parts[0]#'china'
+    marks_str = parts[1]#'5 4 3 3 2'
+    marks_str_arr = marks_str.split(" ")#['5','4','3','3','2']
+    marks_int_arr = [int(i) for i in marks_str_arr]#[5,4,3,3,2]
     d={}
     d['name']=name
     d['marks']=marks_int_arr

@@ -1,0 +1,34 @@
+Input
+4
+yerassyl,3/4
+kirito,20/30
+era,50/60
+anel,30/40
+[
+    {
+        "name":"yerassyl",
+        "mark":[3,4]
+    },
+    {
+        "name":"kirito",
+        "mark":[20,30]
+    },
+    {
+        "name":"era",
+        "mark":[50,60]
+    },
+    {
+        "name":"anel",
+        "mark":[30,40]
+    }
+]
+
+
+
+
+OUT
+STEP1
+yerassyl 75%
+kirito 66%
+era    80%
+
