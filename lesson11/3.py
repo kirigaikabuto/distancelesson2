@@ -13,7 +13,10 @@ for i in range(n):
     mark_str_arr = mark_str.split("/")#['3','4']
     mark_int_arr = [int(i) for i in mark_str_arr]#[3,4]
     d={}
-    d['name']=name
-    d['mark']=mark_int_arr
+    d['name']=name#yerassyl
+    d['mark']=mark_int_arr#[3,4]
     students.append(d)
-for
+for i in students:
+    percent =(i['mark'][0]/i['mark'][1])*100
+    i['mark_percent']=int(percent)
+for i in students:

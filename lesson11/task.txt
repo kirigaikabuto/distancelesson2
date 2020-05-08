@@ -9,21 +9,25 @@ anel,30/40
         "name":"yerassyl",
         "mark":[3,4],
         "mark_percent":75
+        "mark_symbol":"C"
     },
     {
         "name":"kirito",
         "mark":[20,30],
-        "mark_percent":66
+        "mark_percent":66,
+        "mark_symbol":"D"
     },
     {
         "name":"era",
         "mark":[50,60],
-        "mark_percent":70
+        "mark_percent":70,
+         "mark_symbol":"C"
     },
     {
         "name":"anel",
         "mark":[30,40],
         "mark_percent":75
+         "mark_symbol":"C"
     }
 ]
 
