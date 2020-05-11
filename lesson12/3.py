@@ -1,4 +1,6 @@
 from myutils import *
 arr = [1,2,3,4,5]
-find_max(arr)
-find_sumi(arr)
+mymaxi = find_max(arr)
+mysumi = find_sumi(arr)
+print(mymaxi)
+print(mysumi)
