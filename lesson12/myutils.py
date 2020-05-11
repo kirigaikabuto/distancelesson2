@@ -14,7 +14,6 @@ def find_avg(c):
     return sumi/len(c)
 def getAge(dictionary):
     return 2020-dictionary['year']
-
 def find_element(array,element):
     isfind=0
     for i in array:
