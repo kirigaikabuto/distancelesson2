@@ -13,6 +13,10 @@ persons=[
     "year":1999
     },
 ]
-for i in persons:
-    realage =  getAge(i)
-    print(realage)
+ages = list(map(getAge,persons))
+# ages=[]
+# for i in persons:
+#     realage =  getAge(i)
+#     ages.append(realage)
+
+print(ages)
