@@ -16,6 +16,11 @@ def add_student():
     newstudent= create_student(line)
     students.append(newstudent)
     main()
+def delete_student():
+    name = input("name:")
+    #code
+    main()
+    
 def main():
     print("[1]List Of students")
     print("[2]Add new student")
