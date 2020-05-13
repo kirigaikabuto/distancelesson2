@@ -1,0 +1,9 @@
+student name:yerasyl
+key for update:[name,age,marks]
+value for update:1,2,3,4,
+TEST1
+
+student name:yerasyl
+key for update:name
+value for update:krito
+{'name': 'krito', 'age': 29, 'marks': [1, 2, 3, 3, 4]}
