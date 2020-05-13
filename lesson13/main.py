@@ -19,6 +19,18 @@ def add_student():
 def delete_student():
     name = input("name:")
     #code
+    index=-1
+    n = len(students)
+    for i in range(n):
+        student=students[i]
+        if student['name']==name:
+            index=i
+            
+    if index!=-1:
+        students.pop(index)
+        print(f"user with name {name} was deleted")
+    else:
+        print("no student with that name")
     main()
     
 def main():
@@ -32,6 +44,8 @@ def main():
         list_students()
     elif num =="2":
         add_student()
+    elif num == "3":
+        delete_student()
     else:
         exit()
 
